@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c8e72ba-ad5d-469a-a312-d938bded038d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Python-Estudo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alura_python3_curso_pt2/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../adivinhacaomeu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forcameu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jogos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../selecao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../alura_python3_curso_pt2/forcameu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../alura_python3_curso_pt2/forcameu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,18 +72,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="forcameu (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="alura-python3-curso-pt2" />
+    <configuration name="forcameu (1)" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Program Files\Python310\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../alura_python3_curso_pt2" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../alura_python3_curso_pt2/forcameu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
