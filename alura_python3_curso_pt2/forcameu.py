@@ -3,29 +3,34 @@ def jogar():
     print("     Bem vindo ao jogo da Froca!")
     print("*-*" * 12)
 
-    palavra_secreta ='banana'
-    letras_acertadas = ['_', '_', '_', '_', '_', '_']
+    palavra_secreta ='banana'.upper()
+    letras_acertadas = ['_' for lentra in palavra_secreta]
     enforcou = False
     acertou = False
+    erros = 0
 
-
+    print(letras_acertadas)
     while (not enforcou and not acertou):
-        print(letras_acertadas)
+
         chute = input("Digite uma letra: ")
-        chute = chute.strip()
+        chute = chute.strip().upper()
 
-        index = 0
-        for letra in palavra_secreta:
-            if (chute.upper() == letra.upper()):
-                print("Encontrei a letra '{}' na posição: {}".format(chute.lower(), index + 1))
-                letras_acertadas[index] = chute
-            index += 1
-
-
-
-
-        print('jogando')
-
+        if(chute in palavra_secreta):
+            index = 0
+            for letra in palavra_secreta:
+                if (chute == letra):
+                    print("Encontrei a letra '{}' na posição: {}".format(chute.lower(), index + 1))
+                    letras_acertadas[index] = letra
+                index +=  1
+        else:
+            erros += 1
+        enforcou = erros == 6
+        acertou = '_' not in letras_acertadas
+        print(letras_acertadas)
+    if (acertou):
+        print('Voce ganhou')
+    else:
+        print('Voce perdeu')
     print("Fim do jogo")
 if (__name__ == "__main__"):
         jogar()

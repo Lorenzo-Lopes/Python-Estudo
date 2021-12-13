@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c8e72ba-ad5d-469a-a312-d938bded038d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../alura_python3_curso_pt2/forcameu.py" beforeDir="false" afterPath="$PROJECT_DIR$/../alura_python3_curso_pt2/forcameu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
