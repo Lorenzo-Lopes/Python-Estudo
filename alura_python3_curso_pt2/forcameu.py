@@ -1,10 +1,22 @@
+import random
+
 def jogar():
     print("*-*" * 12)
     print("     Bem vindo ao jogo da Froca!")
     print("*-*" * 12)
 
-    palavra_secreta ='banana'.upper()
-    letras_acertadas = ['_' for lentra in palavra_secreta]
+    arquivo = open("palavras.txt", "r")
+    palavras=[]
+
+    for linha in arquivo:
+        palavras.append(linha.strip())
+    arquivo.close()
+
+    palavra_secreta = palavras[random.randrange(0, len(palavras))].upper()
+
+    print(palavra_secreta)
+
+    letras_acertadas = ['_' for letra in palavra_secreta]
     enforcou = False
     acertou = False
     erros = 0
@@ -21,7 +33,7 @@ def jogar():
                 if (chute == letra):
                     print("Encontrei a letra '{}' na posição: {}".format(chute.lower(), index + 1))
                     letras_acertadas[index] = letra
-                index +=  1
+                index += 1
         else:
             erros += 1
         enforcou = erros == 6
