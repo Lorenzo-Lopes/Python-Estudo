@@ -1,8 +1,8 @@
 class Data:
     def __init__(self):
-        self.dia = 0
-        self.mes = 0
-        self.ano = 0
+        self.__dia = 0
+        self.__mes = 0
+        self.__ano = 0
 
     def le_data(self):
         self.dia = int(input('Digite o dia: '))
