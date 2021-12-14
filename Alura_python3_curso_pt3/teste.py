@@ -1,12 +1,13 @@
-def cria_conta (numero, titular, saldo, limite):
-    conta ={"numero": numero, "titular":titular, "saldo":saldo, "limite":limite}
-    return conta
+class Data:
+    def __init__(self):
+        self.dia = 0
+        self.mes = 0
+        self.ano = 0
 
-def deposita(conta, valor):
-    conta["saldo"]+= valor
+    def le_data(self):
+        self.dia = int(input('Digite o dia: '))
+        self.mes = int(input('Digite o mes: '))
+        self.ano = int(input('Digite o ano: '))
 
-def saca(conta, valor):
-    conta["saldo"] -= valor
-
-def extrato(conta):
-    print('O saldo é {}'.format(conta["saldo"]))
+    def formatada(self):
+        print(f'{self.dia}/{self.mes}/{self.ano}')
